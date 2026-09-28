@@ -1,5 +1,6 @@
-# 🧹 Data Cleaning — Dirty Café Sales
+# Data Cleaning — Dirty Café Sales
 **Oasis Infobyte Internship · Data Analytics · Level 1 — Task 3**
+**Author:** Ojewumi Asaph Felix
 
 ## Objective
 Take a deliberately messy dataset and transform it into a clean, analysis-ready dataset, documenting and justifying every decision.
@@ -22,7 +23,7 @@ Python · pandas · numpy · matplotlib · seaborn · Jupyter Notebook
    - Row deletion (missing dates), median imputation (quantity), `"Unknown"` category (item, payment, location)
 5. **Duplicate removal**: checked before and after cleaning
 6. **Outlier detection**: IQR and Z-score; natural extremes retained
-7. **Automatic validation**: assertions on consistency
+7. **Automatic validation**: assertions on consistency, plus a reload check of the exported file
 8. **Before vs. after summary** and **export**
 
 ## Results
@@ -33,11 +34,18 @@ Python · pandas · numpy · matplotlib · seaborn · Jupyter Notebook
 | Null values (NaN) | 6,826 | 0 |
 | Placeholders (`ERROR` / `UNKNOWN`) | 3,256 | 0 |
 | Duplicate rows / IDs | 0 / 0 | 0 / 0 |
-| Columns with correct dtype | 4/8 (50%) | 8/8 (100%) |
+| Columns with correct dtype | 1/8 (12%) | 8/8 (100%) |
 
-**Key insight:** the two business rules made it possible to recover **99 %** of missing `Price Per Unit` values, **95 %** of missing `Quantity` and `Total Spent` values, and **50 %** of missing `Item` values *exactly*, without any guessing.
+**Key insight:** the two business rules made it possible to recover **1,951 missing values exactly**, without any guessing: 99 % of missing prices, 95 % of missing quantities and totals, and 50 % of missing item names.
+
+![Recovery](images/recovery.png)
 
 ![Before vs after](images/before_after.png)
+
+## Limitations
+- 460 transactions (4.6 %) were removed because their date was unknown.
+- `Payment Method` (≈ 32 %) and `Location` (≈ 40 %) keep an explicit `Unknown` category.
+- Cake, Juice, Sandwich and Smoothie are slightly under-counted: their missing names could not be recovered because they share a price.
 
 ## Screenshots
 | Before cleaning | Outliers | Categories after cleaning |
