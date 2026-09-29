@@ -1,5 +1,5 @@
 # Data Cleaning — Dirty Café Sales
-**Oasis Infobyte Internship · Data Analytics · Level 1 — Task 3**
+**Oasis Infobyte Internship · Data Analytics · Level 1 — Task 3**  
 **Author:** Ojewumi Asaph Felix
 
 ## Objective
