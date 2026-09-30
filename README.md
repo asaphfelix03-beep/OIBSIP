@@ -10,6 +10,7 @@
 | Level 1 · Task 2 | Customer Segmentation (RFM + K-Means) | [DataAnalytics-L1-CustomerSegmentation](DataAnalytics-L1-CustomerSegmentation/) | ✅ Completed |
 | Level 1 · Task 4 | Sentiment Analysis (airline tweets) | [DataAnalytics-L1-SentimentAnalysis](DataAnalytics-L1-SentimentAnalysis/) | ✅ Completed |
 | Level 2 · Task 1 | House Price Prediction (Linear Regression) | [DataAnalytics-L2-HousePricePrediction](DataAnalytics-L2-HousePricePrediction/) | ✅ Completed |
+| Level 2 · Task 2 | Wine Quality Prediction (RF, SGD, SVC) | [DataAnalytics-L2-WineQualityPrediction](DataAnalytics-L2-WineQualityPrediction/) | ✅ Completed |
 
 ## Tools
 Python · pandas · numpy · matplotlib · seaborn · scikit-learn · NLTK · TextBlob · Jupyter Notebook
