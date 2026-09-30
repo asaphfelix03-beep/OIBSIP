@@ -7,7 +7,7 @@
 |---|---|---|---|
 | Level 1 · Task 3 | Cleaning Data (Dirty Café Sales) | [DataAnalytics-L1-DataCleaning](DataAnalytics-L1-DataCleaning/) | ✅ Completed |
 | Level 1 · Task 1 | EDA on Retail Sales Data (Istanbul malls) | [DataAnalytics-L1-EDARetailSales](DataAnalytics-L1-EDARetailSales/) | ✅ Completed |
-| Level 1 · Task 2 | Customer Segmentation Analysis | — | ⏳ Planned |
+| Level 1 · Task 2 | Customer Segmentation (RFM + K-Means) | [DataAnalytics-L1-CustomerSegmentation](DataAnalytics-L1-CustomerSegmentation/) | ✅ Completed |
 
 ## Tools
 Python · pandas · numpy · matplotlib · seaborn · scikit-learn · Jupyter Notebook
