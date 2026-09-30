@@ -7,7 +7,7 @@ Build and evaluate a linear regression model that predicts the sale price of a h
 
 ## Dataset
 - **Source:** *House Prices — Advanced Regression Techniques* (Kaggle competition, Ames Housing data by Dean De Cock), downloaded from [OpenML (dataset 42165)](https://www.openml.org/d/42165)
-- **File:** [`data/house_prices.csv`](data/house_prices.csv): 1,460 houses sold in Ames, Iowa (2006–2010), 79 features, prices in US$
+- **File:** [`data/house_prices.csv`](data/house_prices.csv): 1,460 houses sold in Ames, Iowa (2006–2010), 79 features, prices in US\$
 - **Notebook:** [`house_price_prediction.ipynb`](house_price_prediction.ipynb)
 
 ## Tech Stack
@@ -27,10 +27,10 @@ Python · pandas · numpy · scikit-learn (LinearRegression, Ridge, Lasso, Pipel
 ## Results
 | Model | R² | RMSE | MAE |
 |---|---|---|---|
-| **Linear Regression (14 features)** | **0.909** | **$22,389** | **$16,083** |
-| Linear Regression (all features) | 0.913 | $21,906 | $15,554 |
-| Ridge (all features) | 0.927 | $20,040 | $14,600 |
-| Lasso (all features) | 0.931 | $19,542 | $14,166 |
+| **Linear Regression (14 features)** | **0.909** | **\$22,389** | **\$16,083** |
+| Linear Regression (all features) | 0.913 | \$21,906 | \$15,554 |
+| Ridge (all features) | 0.927 | \$20,040 | \$14,600 |
+| Lasso (all features) | 0.931 | \$19,542 | \$14,166 |
 
 ![Actual vs predicted](images/actual_vs_predicted.png)
 
