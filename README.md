@@ -11,9 +11,10 @@
 | Level 1 · Task 4 | Sentiment Analysis (airline tweets) | [DataAnalytics-L1-SentimentAnalysis](DataAnalytics-L1-SentimentAnalysis/) | ✅ Completed |
 | Level 2 · Task 1 | House Price Prediction (Linear Regression) | [DataAnalytics-L2-HousePricePrediction](DataAnalytics-L2-HousePricePrediction/) | ✅ Completed |
 | Level 2 · Task 2 | Wine Quality Prediction (RF, SGD, SVC) | [DataAnalytics-L2-WineQualityPrediction](DataAnalytics-L2-WineQualityPrediction/) | ✅ Completed |
+| Level 2 · Task 3 | Credit Card Fraud Detection (SMOTE, RF) | [DataAnalytics-L2-FraudDetection](DataAnalytics-L2-FraudDetection/) | ✅ Completed |
 
 ## Tools
-Python · pandas · numpy · matplotlib · seaborn · scikit-learn · NLTK · TextBlob · Jupyter Notebook
+Python · pandas · numpy · matplotlib · seaborn · scikit-learn · imbalanced-learn · NLTK · TextBlob · Jupyter Notebook
 
 ## Run the projects locally
 ```bash
