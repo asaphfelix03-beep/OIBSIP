@@ -12,9 +12,10 @@
 | Level 2 · Task 1 | House Price Prediction (Linear Regression) | [DataAnalytics-L2-HousePricePrediction](DataAnalytics-L2-HousePricePrediction/) | ✅ Completed |
 | Level 2 · Task 2 | Wine Quality Prediction (RF, SGD, SVC) | [DataAnalytics-L2-WineQualityPrediction](DataAnalytics-L2-WineQualityPrediction/) | ✅ Completed |
 | Level 2 · Task 3 | Credit Card Fraud Detection (SMOTE, RF) | [DataAnalytics-L2-FraudDetection](DataAnalytics-L2-FraudDetection/) | ✅ Completed |
+| Level 2 · Task 4 | Google Play Store Analysis (EDA + VADER sentiment) | [DataAnalytics-L2-PlayStoreAnalysis](DataAnalytics-L2-PlayStoreAnalysis/) | ✅ Completed |
 
 ## Tools
-Python · pandas · numpy · matplotlib · seaborn · scikit-learn · imbalanced-learn · NLTK · TextBlob · Jupyter Notebook
+Python · pandas · numpy · matplotlib · seaborn · scikit-learn · imbalanced-learn · NLTK · TextBlob · VADER · plotly · Jupyter Notebook
 
 ## Run the projects locally
 ```bash
