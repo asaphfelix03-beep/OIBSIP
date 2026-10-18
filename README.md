@@ -1,7 +1,7 @@
 # OIBSIP — Oasis Infobyte Internship Program
 
 **Intern:** Ojewumi Asaph Felix  
-**Track:** Data Analytics
+**Track:** Data Analytics — all 9 tasks of Level 1 and Level 2 completed
 
 | Task | Project | Folder | Status |
 |---|---|---|---|
@@ -13,6 +13,7 @@
 | Level 2 · Task 2 | Wine Quality Prediction (RF, SGD, SVC) | [DataAnalytics-L2-WineQualityPrediction](DataAnalytics-L2-WineQualityPrediction/) | ✅ Completed |
 | Level 2 · Task 3 | Credit Card Fraud Detection (SMOTE, RF) | [DataAnalytics-L2-FraudDetection](DataAnalytics-L2-FraudDetection/) | ✅ Completed |
 | Level 2 · Task 4 | Google Play Store Analysis (EDA + VADER sentiment) | [DataAnalytics-L2-PlayStoreAnalysis](DataAnalytics-L2-PlayStoreAnalysis/) | ✅ Completed |
+| Level 2 · Task 5 | Autocomplete & Autocorrect (n-grams, edit distance) | [DataAnalytics-L2-AutocompleteAutocorrect](DataAnalytics-L2-AutocompleteAutocorrect/) | ✅ Completed |
 
 ## Tools
 Python · pandas · numpy · matplotlib · seaborn · scikit-learn · imbalanced-learn · NLTK · TextBlob · VADER · plotly · Jupyter Notebook
